@@ -1,0 +1,34 @@
+    1  ifconfig 
+    2  apt-get update
+    3  apt-get upgrade
+    4  apt-get upgrade -y
+    5  apt-get update -y
+    6  apt-get install update
+    7  apt-get update 
+    8  apt-get upgrade -y
+    9  apt-get update 
+   10  add-apt-repository -y ppa:webupd8team/java
+   11  apt-get update
+   12  apt-get -y install oracle-java8-installer
+   13  wget -qO - https://packages.elastic.co/GPG-KEY-elasticsearch | apt-key add -
+   14  echo "deb http://packages.elastic.co/elasticsearch/2.x/debian stable main" | tee -a /etc/apt/sources.list.d/elasticsearch-2.x.list
+   15  echo "deb http://packages.elastic.co/elasticsearch/2.x/debian stable main" | sudo tee -a /etc/apt/sources.list.d/elasticsearch-2.x.list
+   16  apt-get update
+   17  apt-get -y install elasticsearch
+   18  vim /etc/hostname
+   19  apt-get vim
+   20  apt-get install vim
+   21  vim /etc/hostname 
+   22  vim /etc/hosts
+   23  ls /etc/
+   24  ls /etc/sysctl.conf 
+   25* vim /etc/sysctl.conf
+   26  ls /etc/systemd/
+   27  getenforce
+   28  apt install selinux-utils
+   29  getenforce
+   30  vim /etc/elasticsearch/elasticsearch.yml
+   31  service elasticsearch restart
+   32  service elasticsearch status
+   33  update-rc.d elasticsearch defaults 95 10
+   34  history > History_Elasticsearch
