@@ -32,3 +32,29 @@
    32  service elasticsearch status
    33  update-rc.d elasticsearch defaults 95 10
    34  history > History_Elasticsearch
+   35  ls
+   36  cat History_Elasticsearch 
+   37  echo "deb http://packages.elastic.co/kibana/4.5/debian stable main" | tee -a /etc/apt/sources.list.d/kibana-4.5.x.list
+   38  apt-get update
+   39  apt-get -y install kibana
+   40  vim /opt/kibana/config/kibana.yml
+   41  update-rc.d kibana defaults 96 9
+   42  service kibana start
+   43  service kibana status
+   44  apt-get install nginx apache2-utils
+   45  htpasswd -c /etc/nginx/htpasswd.users kibanaadmin
+   46  vim /etc/nginx/sites-available/default
+   47  gedit /etc/nginx/sites-available/default
+   48  vim /etc/nginx/sites-available/default
+   49  hostname
+   50  vim hosts
+   51  vim /etc/hosts
+   52  vim /etc/hostname
+   53  vim /etc/nginx/sites-available/default
+   54  service nginx restart
+   55  service nginx status
+   56  service elasticsearch status
+   57  service elasticsearch start
+   58  service elasticsearch status
+   59  service nginx status
+   60  history >> History_Elasticsearch 
