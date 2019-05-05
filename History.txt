@@ -1,0 +1,39 @@
+    1  ifconfig 
+    2  apt-get update
+    3  apt-get upgrade
+    4  apt-get upgrade -y
+    5  apt-get update -y
+    6  apt-get install update
+    7  apt-get update 
+    8  apt-get upgrade -y
+    9  apt-get update 
+   10  apt-get update
+   11  apt-get update -y
+   12  ps -A
+   13  ps -A |nginx
+   14  ps -A |logstash
+   15  apt-get install openssh
+   16  apt-get install openssh-server
+   17  ps -A | grep ssh
+   18  ifconfig 
+   19  whoami
+   20  root
+   21  apt-get install vim
+   22  vim /etc/hostname 
+   23  hostnamectl sethostnam plc
+   24  hostnamectl sethostname plc
+   25  hostnamectl hostname plc
+   26  vim /etc/hostname 
+   27  vim /etc/hosts
+   28  reboot 
+   29  hostname
+   30  hostname --fqdn
+   31  ping nsbm.local
+   32  ping plc.nsbm.local
+   33  ping plc
+   34  ping localhost
+   35  ping www.nsbm.local
+   36  vim /etc/hosts
+   37  ping nsbm.local
+   38  curl -X GET "localhost:9200"
+   39  history > History.txt
